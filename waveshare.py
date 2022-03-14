@@ -33,8 +33,11 @@ class RaspberryPi:
         self.SPI.writebytes2(data)
 
     def module_init(self):
+        # 引脚使用 BCM 编码
         self.GPIO.setmode(self.GPIO.BCM)
+        # 关闭告警信息
         self.GPIO.setwarnings(False)
+
         self.GPIO.setup(self.RST_PIN, self.GPIO.OUT)
         self.GPIO.setup(self.DC_PIN, self.GPIO.OUT)
         self.GPIO.setup(self.CS_PIN, self.GPIO.OUT)
