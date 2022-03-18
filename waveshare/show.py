@@ -1,12 +1,15 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
+
+import datetime
 import logging
 import os
 import time
-import datetime
+
 from PIL import Image, ImageDraw, ImageFont, ImageChops
+
+import display
 import waveshare
-import weather
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -36,7 +39,7 @@ def message_printer(epd):
     draw.text((20, 2), date_str, font=font24, fill=0)
     draw.text((20, 36), time_str, font=font36, fill=0)
 
-    image = ImageChops.invert(weather.ICON[weather.SUN])
+    image = ImageChops.invert(display.ICON[display.SUN])
     draw.bitmap((10, 66), image)
     red_image = Image.new('1', (epd.HEIGHT, epd.WIDTH), 255)
     epd.display(epd.get_buffer(black_image), epd.get_buffer(red_image))

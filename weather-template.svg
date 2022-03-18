@@ -1266,28 +1266,40 @@
         </g>
     </defs>
 
-    <g transform="scale(0.6) translate(20 10)">s
-        <use href="#100" />
+    <g transform="scale(0.6) translate(30 10)">s
+        <use href="#803" />
     </g>
 
-    <text x="20" y="70" font-size="15px">
-        多云
+    <text x="30" y="70" font-size="15px">
+        阴
     </text>
 
-    <text x="5" y="95" font-size="25px">
-        13/30
+    <text x="15" y="95" font-size="25px" style="font-">
+        0/7
     </text>
 
     <text x="90" y="20" font-size="13">
-        2022年3月20号
+        山东 济南
     </text>
 
     <text x="90" y="40" font-size="13">
-        周四
+        2022-03-02 周四
     </text>
 
     <text x="90" y="60" font-size="13">
-        适宜钓鱼
+        较不宜运动
+    </text>
+
+    <text x="90" y="80" font-size="13">
+        不宜钓鱼
+    </text>
+
+    <text x="90" y="100" font-size="13">
+        紫外线: 最弱
+    </text>
+
+    <text x="90" y="100" font-size="13">
+        空气状况: 良
     </text>
 
 </svg>
