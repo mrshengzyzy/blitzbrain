@@ -1266,40 +1266,42 @@
         </g>
     </defs>
 
-    <g transform="scale(0.6) translate(30 10)">s
-        <use href="#803" />
+    <text x="5" y="10" font-size="8">
+        山东 济南  2022-03-33 周五
+    </text>
+
+    <g transform="scale(0.5) translate(65 30)">s
+        <use href="#1001" />
     </g>
 
-    <text x="30" y="70" font-size="15px">
-        阴
+    <text x="45" y="75" style='font-size:15px; text-anchor:middle;'>
+        龙卷风
     </text>
 
-    <text x="15" y="95" font-size="25px" style="font-">
-        0/7
+    <text x="15" y="100" style='font-size:15px; text-anchor:middle;'>
+        19℃/21℃
     </text>
 
-    <text x="90" y="20" font-size="13">
-        山东 济南
-    </text>
+    <line x1="122" x2="122" y1="0" y2="104" stroke="black"/>
 
-    <text x="90" y="40" font-size="13">
-        2022-03-02 周四
-    </text>
-
-    <text x="90" y="60" font-size="13">
-        较不宜运动
-    </text>
-
-    <text x="90" y="80" font-size="13">
+    <text x="130" y="15" font-size="12">
         不宜钓鱼
     </text>
 
-    <text x="90" y="100" font-size="13">
+    <text x="130" y="35" font-size="12">
+        较不宜运动
+    </text>
+
+    <text x="130" y="55" font-size="12">
         紫外线: 最弱
     </text>
 
-    <text x="90" y="100" font-size="13">
-        空气状况: 良
+    <text x="130" y="75" font-size="12">
+        空气质量: 优
+    </text>
+
+    <text x="130" y="95" font-size="12">
+        空气质量: 优
     </text>
 
 </svg>
